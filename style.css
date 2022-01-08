@@ -1,0 +1,160 @@
+* {box-sizing: border-box;}
+.topnav {
+  overflow: hidden;
+  background-color:#181200;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color:#FBEED7 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #FBEED7;
+  color: #000;
+}
+.footer {
+   position: sticky;
+   left: 0;
+   bottom: 0;
+   padding-bottom: 5px;
+   width: 100%;
+   background-color:#181200;
+   color: white;
+   text-align: center;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+div.gallery:hover {
+  border: 5px solid #000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.gallery button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+div.gallery button:hover {
+  opacity: 0.7;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo-image{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -10px;
+    float: right;
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+.body2 {
+  margin: 0;
+  background-color:#FFEFCB;
+  font- family: Times New Roman;
+}
+.banner{
+  min-height : 100%;
+  min-width : 100%;
+  background-size:100% 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+.header {
+  width:100%;
+  height:100%;
+  padding: 100px 0;
+  background-image:url("images/banner_oasis.png");
+  background-repeat: no-repeat; 
+  background-size: contain;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+ 
+  
+}
+.container {
+  position: relative;
+  font-family: Arial;
+  float: left;
+}
+.container2 {
+  position: relative;
+  font-family: Arial;
+  padding: 10px;
+  float: right;
+}
+
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  center: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.5;
+}
+.text-block2 {
+  position: absolute;
+  bottom: 20px;
+  center: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.5;
+}
+.w3-button a {
+  color:#FBEED7 ;
+}
+
